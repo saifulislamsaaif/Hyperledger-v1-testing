@@ -64,7 +64,7 @@ test('\n\n** Test chaincode install using chaincodePath to create chaincodePacka
 			return true;
 		} else {
 			t.fail(info);
-			t.end();
+			return true;
 		}
 	},
 	(err) => {
